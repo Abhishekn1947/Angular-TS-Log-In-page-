@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign__content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form__content {
+  margin-bottom: 20px;
+}
+
+.form__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form__username,
+.form__pass {
+  margin-bottom: 10px;
+}
+
+.form__submit {
+  text-align: center;
+}
+
+.fn__submit input {
+  background: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign__desc {
+  text-align: center;
+}
+
+.sign__desc a {
+  color: #007bff;
+}

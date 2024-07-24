@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="sign__content">
+    <form class="login" (ngSubmit)="onSubmit()">
+      <div class="form__content">
+        <div class="form__title">Sign In</div>
+        <div class="form__username">
+          <label for="email">Email</label>
+          <input type="text" class="input" id="email" [(ngModel)]="email" name="email" autocapitalize="off" autocomplete="username" aria-describedby="login-message">
+        </div>
+        <div class="form__pass">
+          <div class="pass_lab">
+            <label for="password">Password</label>
+            <a href="#">Forget Password?</a>
+          </div>
+          <input type="password" id="password" [(ngModel)]="password" name="password" autocomplete="current-password" spellcheck="false">
+        </div>
+        <div class="form__submit">
+          <label class="fn__submit">
+            <input type="submit" name="submit" value="Sign In">
+          </label>
+        </div>
+      </div>
+    </form>
+    <div class="sign__desc">
+      <p>Not a member? <a routerLink="/signup">Sign Up</a></p>
+    </div>
+  </div>
+</div>

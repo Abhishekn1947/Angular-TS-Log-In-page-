@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.techwave_fn_user_profile_page {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.techwave_fn_pagetitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user__profile {
+  text-align: center;
+}
+
+.user_details {
+  text-align: left;
+}
+
+.user_details .item {
+  margin-bottom: 10px;
+}
+
+.user_details .subtitle {
+  font-weight: bold;
+}
+
+.user_details .title {
+  font-size: 18px;
+}
